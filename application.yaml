@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/sadksenol/argocd.git
     targetRevision: HEAD
+    path: root
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
